@@ -1,5 +1,5 @@
 <template>
-  <input type="text" :placeholder="placeholder" ref="input"
+  <input type="text" :placeholder="placeholder" ref="input" autocomplete="none"
     :value="value"/>
 </template>
 
